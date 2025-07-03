@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MIAU PADRINHO</title>
+
+  <style>
+    body {
+      background-image: url('GATOS/FUNDO.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-color: #fff8f2;
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      padding: 20px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      padding: 10px;
+      flex-wrap: wrap;
+    }
+
+    button {
+      padding: 8px 16px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+
+    .secao {
+      display: none;
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.85);
+      border-radius: 10px;
+    }
+
+    .secao.active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>MIAU PADRINHO</h1>
+
+  <nav>
+    <button onclick="mostrar('sobre')">Sobre</button>
+    <button onclick="mostrar('doacao')">Doação</button>
+    <button onclick="mostrar('jogo')">Jogo da Velha</button>
+    <button onclick="mostrar('esporotricose')">Esporotricose</button>
+    <button onclick="mostrar('cuidados')">Cuidados</button>
+    <button onclick="mostrar('fotos')">Fotos</button>
+    <button onclick="mostrar('contato')">Contato</button>
+  </nav>
+
+  <div id="sobre" class="secao active">
+    <h2>Sobre</h2>
+    <p>Conteúdo da aba "Sobre".</p>
+  </div>
+
+  <div id="doacao" class="secao">
+    <h2>Doação</h2>
+    <p>Conteúdo da aba "Doação".</p>
+  </div>
+
+  <div id="jogo" class="secao">
+    <h2>Jogo da Velha</h2>
+    <p>Aqui ficará o jogo da velha.</p>
+  </div>
+
+  <div id="esporotricose" class="secao">
+    <h2>Esporotricose</h2>
+    <p>Explicação simples sobre a doença.</p>
+  </div>
+
+  <div id="cuidados" class="secao">
+    <h2>Cuidados</h
+
+Claro! Aqui está seu site completo com a imagem de fundo chamada FUNDO.jpg dentro da pasta GATOS, configurado para cobrir todo o fundo, sem repetição e com a cor de fundo suave para ficar leve:
+
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MIAU PADRINHO</title>
+
+  <style>
+    body {
+      background-image: url('GATOS/FUNDO.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-color: #fff8f2;
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      padding: 20px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      padding: 10px;
+      flex-wrap: wrap;
+    }
+
+    button {
+      padding: 8px 16px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+
+    .secao {
+      display: none;
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.85);
+      border-radius: 10px;
+    }
+
+    .secao.active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>MIAU PADRINHO</h1>
+
+  <nav>
+    <button onclick="mostrar('sobre')">Sobre</button>
+    <button onclick="mostrar('doacao')">Doação</button>
+    <button onclick="mostrar('jogo')">Jogo da Velha</button>
+    <button onclick="mostrar('esporotricose')">Esporotricose</button>
+    <button onclick="mostrar('cuidados')">Cuidados</button>
+    <button onclick="mostrar('fotos')">Fotos</button>
+    <button onclick="mostrar('contato')">Contato</button>
+  </nav>
+
+  <div id="sobre" class="secao active">
+    <h2>Sobre</h2>
+    <p>Conteúdo da aba "Sobre".</p>
+  </div>
+
+  <div id="doacao" class="secao">
+    <h2>Doação</h2>
+    <p>Conteúdo da aba "Doação".</p>
+  </div>
+
+  <div id="jogo" class="secao">
+    <h2>Jogo da Velha</h2>
+    <p>Aqui ficará o jogo da velha.</p>
+  </div>
+
+  <div id="esporotricose" class="secao">
+    <h2>Esporotricose</h2>
+    <p>Explicação simples sobre a doença.</p>
+  </div>
+
+  <div id="cuidados" class="secao">
+    <h2>Cuidados</h2>
+    <p>Dicas e informações sobre cuidados com gatinhos.</p>
+  </div>
+
+  <div id="fotos" class="secao">
+    <h2>Fotos</h2>
+    <p>Galeria de fotos dos gatinhos.</p>
+  </div>
+
+  <div id="contato" class="secao">
+    <h2>Contato</h2>
+    <p>Formulário para recados será adicionado aqui.</p>
+  </div>
+
+  <script>
+    function mostrar(id) {
+      document.querySelectorAll('.secao').forEach(secao => {
+        secao.classList.remove('active');
+      });
+      document.getElementById(id).classList.add('active');
+    }
+  </script>
+
+</body>
+</html>
